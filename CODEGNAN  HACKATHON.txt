@@ -1,0 +1,84 @@
+CODEGNAN  HACKATHON
+AI AVENGERS
+Personalized Course Recommendation System
+Domain: Education / AI    |    
+1. Problem Statement
+Students choosing electives or add-on courses ,often pick based on peer suggestions rather than their own skill gaps or career goals, leading to mismatched learning paths. An intelligent recommender can guide students toward courses that best complement their existing skills and target job roles.
+2. Goal
+Build a recommendation system that suggests relevant courses to a student based on their current skill profile, completed courses, and target job role, helping students build a more coherent and job-relevant learning path.
+3. Input / Requirements
+A. User Roles
+Student
+Admin (manages course catalog)
+B. Registration & Login
+Students register and build a skill/interest profile; admin manages the course catalog and metadata.
+C. Data Entry
+Student profile: completed courses, skills, target role
+Course catalog: title, prerequisites, skills taught, difficulty
+Feedback/ratings on completed courses
+D. Core Functional Requirements
+Build and update student skill profile
+Recommend next courses based on profile and target role
+Allow students to rate completed courses
+Admin manages course catalog and prerequisite mapping
+Show a learning path visualization
+E. Business Workflow
+Student completes profile with current skills  →  Student selects a target role  →  System recommends a ranked course list  →  Student enrolls/completes courses and rates them  →  System refines future recommendations using feedback
+F. Database Requirements (key entities)
+Students
+Courses
+SkillsCatalog
+Enrollments
+Ratings
+G. Search / Filter / Analytics
+Most recommended vs most enrolled course comparison
+Skill-gap coverage report per target role
+H. Advanced / Optional Features
+Content-based filtering using skill/course tag similarity
+Collaborative filtering using ratings from similar students
+Learning path visualization graph
+4. Suggested Tech Stack
+Frontend
+Streamlit or React
+Backend
+Python (Flask/FastAPI)
+Database
+PostgreSQL / SQLite
+Data / ML
+scikit-learn for content-based and collaborative filtering
+Visualization
+Plotly for learning path and skill coverage
+Deployment
+Streamlit Cloud / Render
+
+
+Students are free to choose an alternative technology stack based on their team’s expertise, provided they can demonstrate the complete working solution.
+5. Output / Expected Deliverable
+A working recommender that takes a student profile and target role and returns a ranked, explainable list of recommended courses along with a skill-gap coverage view.
+Expected Modules / Screens
+Student profiling
+Recommendation engine (content-based/collaborative)
+Course catalog admin panel
+Feedback loop
+Final Demo Flow
+1. Student builds a profile with current skills and target role
+2. System generates ranked course recommendations with reasons
+3. Student marks a course as completed and rates it
+4. System updates the profile and refines future recommendations
+5. Admin reviews catalog coverage analytics
+Hackathon Expectations
+By the end of the hackathon, the team should be able to demonstrate:
+A working, demonstrable application — not just screens or static mockups
+A clean, usable interface appropriate for the target user
+A functional backend with real business logic, not placeholder responses
+A connected database with meaningful, non-trivial data relationships
+Input validation and sensible error handling
+Authentication and role-based access control where applicable
+Basic testing of core flows before the demo
+Source code shared with the evaluation team
+A short README describing setup steps and key design decisions
+A live demo walkthrough covering the flow described above
+
+
+
+CODEGNAN VIZAG
