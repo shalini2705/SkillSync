@@ -134,7 +134,7 @@ def render_auth_page():
     st.markdown(
         """
         <div style="text-align: center; margin-bottom: 2rem;">
-            <h2 style="color: #1E3A8A; font-weight: 800;">Welcome to AI Avengers Course Recommender</h2>
+            <h2 style="color: #1E3A8A; font-weight: 800;">Welcome to SkillSync</h2>
             <p style="color: #64748B;">Empowering students with tailored learning paths and role-aligned course recommendations</p>
         </div>
         """,

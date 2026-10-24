@@ -1,4 +1,4 @@
-# 🎓 Personalized Course Recommendation System
+# 🎓 SkillSync — Personalized Course Recommendation System
 ### Codegnan AI Avengers Hackathon 2026
 **Domain:** Artificial Intelligence in Education & Career Development  
 **Tech Stack:** Python 3.12, Streamlit, SQLite, Scikit-learn, Pandas, NumPy, Plotly, Werkzeug  

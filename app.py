@@ -11,7 +11,7 @@ import streamlit as st
 
 # 1. Page Configuration
 st.set_page_config(
-    page_title="AI Avengers - Course Recommender",
+    page_title="SkillSync — Personalized Course Recommendation System",
     page_icon="🎓",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -62,8 +62,8 @@ def render_landing_page():
     st.markdown(
         """
         <div class="hero-banner">
-            <h1>🎓 Personalized Course Recommendation System</h1>
-            <p>Codegnan AI Avengers Hackathon Project &nbsp;|&nbsp; Smart Learning Path & Skill-Gap Optimization</p>
+            <h1>🎓 SkillSync</h1>
+            <p>Personalized Course Recommendation & Skill-Gap Optimization System</p>
         </div>
         """,
         unsafe_allow_html=True
@@ -122,8 +122,8 @@ def main():
     st.sidebar.markdown(
         """
         <div style="text-align:center; padding: 0.5rem 0 1rem 0;">
-            <h2 style="color:#1E3A8A; font-weight:800; margin:0;">AI AVENGERS</h2>
-            <p style="color:#64748B; font-size:0.85rem; margin:0;">Codegnan Hackathon 2026</p>
+            <h2 style="color:#1E3A8A; font-weight:800; margin:0; letter-spacing:-0.5px;">SkillSync</h2>
+            <p style="color:#64748B; font-size:0.85rem; margin:0;">AI Course Recommendation</p>
         </div>
         """,
         unsafe_allow_html=True
@@ -243,7 +243,7 @@ def main():
     st.sidebar.markdown(
         """
         <div style="font-size:0.75rem; color:#94A3B8; text-align:center;">
-            Codegnan AI Avengers Hackathon<br/>
+            <strong>SkillSync</strong> • Codegnan Hackathon 2026<br/>
             Engineered with Streamlit & Scikit-learn
         </div>
         """,
